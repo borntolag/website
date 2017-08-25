@@ -1,23 +1,17 @@
-<!-- David Gresham.  08/23/2017 IT Skills Mentor Network home page -->
+	<!-- David Gresham.  08/18/2017 IT Skills Mentor Network home page -->
 <!DOCTYPE html>
 <html>
-
 <!-- Using Head and Title Tags -->
+<head>
+ <title>IT Skills Mentoring Network </title>
+ 
+ <link rel="stylesheet" type="text/css" href="mystyle.css">
+ 
+</head>
 
-    <head>
-      <title>IT Skills Mentoring Network </title>
- 
-<link rel="stylesheet" type="text/css" href="mystyle.css">
- 
-    </head>
- 
 <!-- Body block -->
-<!-- Challenges encontered trying to get a footer at the bottom of each page required -->
-<!-- a div organization of an overall container which would then have a header, body and footer -->
-<!-- section that would then drive the footer to the proper place. -->
 <body>
-<div id="container">
-<div id="header">
+
   <h1> Welcome to the IT Skills Mentor Network   </h1>
   <br>
   <img src = "images/itskill.jpg" alt="Skill Mentor Network">
@@ -33,49 +27,51 @@
        <li><a href="contact.html">Contact Us</a></li>
 	 </ul>
   </nav>
- </div>
+ 
 <br>
-<div id="body">	
-<!-- Outline of IT Skills Mentor Network mission and goals using Article and Section tags-->
-  <h2>What is the IT Skills Mentor Network</h2>
-<!--Establiish table structure and headings for each column -->  
-<table>
-  <tr>
-    <th>What</th>
-    <th>Description</th>
-    <th>Rational</th>
-  </tr>
-  
-  <tr>
-    <td>Mission</td>
-    <td>link learners with subject matter experts</td>
-    <td>No Financial Costs to students.</td>
-  </tr>
-  
-    <tr>
-    <td>Approach</td>
-    <td>Foundational curriculums that focus on the basics of a skillset.</td>
-	<td>Avoids student burnout by avoiding steep learning skills. </td>
-  </tr>
-  
-    <tr>
-    <td>Giving Back</td>
-    <td>Students encouraged to create a presentation of their learning journey.</td>
-    <td>Usefull in providing encouragement and a way for students to tutor as well.</td>
 	
-  </tr>
- </table>
+<!-- Outline of IT Skills Mentor Network mission and goals using Article and Section tags-->
+<article>
+  <h2>What is the IT Skills Mentor Network</h2> 
+  <section id="mission">
+    <h3>Mission Statement</h3>
+    <p>IT Skills Mentor Network provides a way to link learners with subject matter experts across a wide range of skillsets in Information Technology.  There is no cost to the student except for a willingness to commit to a few hours per week to learn a desired skill.  Our instructors donate their time to help improve the IT community.</p>
+  </section>
+ 
+  <section id="approach">
+     <h3>Approach</h3>
+     <p>Prospective students submit a request stating their area of interest.</p>
+	 <p>A list of tutors is provided that have industry knowledge to help the student.</p>
+	 <p>Tutors connect with the student to arrange a 4-6 week plan to give them a roadmap to success. </p>
+	 <p>The Student's final assignment is to generate a presentation on youtube with a powerpoint deck showing what they have learned.  This allows the student to contribute back to the community so that others can learn. </p>
+  </section>
+</article>
+
+<article>
+   <section id="giving">
+      <h3>Giving to the Community</h3>
+      <p>IT Skills Mentor Network is a community that wants to help the next generation and leveraging an apprenticeship type program allows students to develop skills that can be used to create solutions to real world problems.</p>
+    </section>
+
+   <section id="founder">
+      <h3>Founder</h3>
+ 	  <p>David Gresham formed the idea of this type of a network while he was an IT Architect Manager @ Optum Technology.  David started out as a programmer/analyst to develop financial accounting software.  From there he expanded to infrastrucre, networking, and security. </p>
+	  <p>He wanted to inspire his team to improve by developing a continuous learning program that would allow team members to select a skill that they wanted to learn. </p>
+   </section>
+
+  <section id="sponsors">
+     <h3>Corporate Sponsors</h3>
+     <p>IT Skills Mentor Network is developing a reachout program where companies can provide resources in terms of possible volunteers and a place to do a meetup for various topics.  Sponsorship could provide food and refreshment for a minimal cost and receive 5 minutes to talk about themselves.</p>
+  </section>
+</article>
 
 <br> 
-</div>
-<!-- Footer Tag -->
-<div id="footer">
-  <footer>
-  <p>Copyright 2017 by IT Skills Mentor Network.</p>
-  </footer>
-</div>
 
-</div>
+<!-- Footer Tag -->
+
+<footer>
+Copyright 2017 by IT Skills Mentor Network.
+</footer>
 
 	
 </body>
