@@ -1,0 +1,106 @@
+/* David Gresham.  08/23/2017 IT Skills Mentor Network CSS */
+
+/* Format settings for Header section */
+
+/* Format settings for body */
+
+
+body {
+    background-color: lightblue;
+	width: 100%;
+	float: left;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 24px;
+}
+/* H1-H3 format options */
+h1 {
+    color: black;
+	font-family:"Times New Roman", Times, serif;
+	text-align: center;
+	font-size: 30px;
+}
+h2 {
+    color: blue;
+	font-family: "Zapf-Chandery", cursive;
+	text-align: center;
+	font-size: 26px;
+}
+
+/* options for unordered list and li for navigation */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid black;
+    background-color: lightblue;
+}
+
+nav li {
+    float: left;
+}
+
+nav li a {
+    display: block;
+	background-color: lightblue;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Navigation item will show red as the mouse is hovered over an option */
+
+nav li a:hover:not(.active) {
+    background-color: red;
+}
+
+/* create active class for navigation that will show green for active page */
+
+nav li a.active {
+    color: white;
+    background-color: green;
+}
+p {
+	font-family: "Times New Roman", Times, serif;
+	font-size:	16px;
+}
+p.solid {border-style: solid;}
+
+/* table formatting options for th, tr and table */
+
+table, td, th {
+    border: 1px solid black;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th {
+    height: 50px;
+}
+.col1,.col2,.col3
+{
+	float: left;
+	margin-left: 0%;
+}
+
+.col1 { width: 30%; }
+.col2 { width: 30%; }
+.col3 { width: 30%; }
+
+footer
+{
+	clear: both;
+	padding: 1em 2em;
+	background-color: lightblue;
+}
+/* Custom ID which establishes dynamic width for columns2 and 3 */
+#dynamic {
+   text-align:left;
+   padding-left:23px;
+   font-size:11px;
+   font-weight:bold;
+}
